@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/abi-3.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/android-json-0.0.20131108.vaadin1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/asm-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/asm-analysis-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/asm-commons-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/asm-tree-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/asm-util-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/bcprov-jdk15on-1.54.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/core-3.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/crypto-3.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/jackson-annotations-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/jackson-core-2.8.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/jackson-databind-2.8.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/jcl-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/jffi-1.2.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/jffi-1.2.14-native.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/jnr-constants-0.9.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/jnr-enxio-0.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/jnr-ffi-2.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/jnr-posix-3.0.33.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/jnr-unixsocket-0.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/jnr-x86asm-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/jul-to-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/log4j-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/logback-classic-1.1.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/logback-core-1.1.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/logging-interceptor-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/okhttp-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/okio-1.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/rlp-3.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/rxjava-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/snakeyaml-1.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/spring-aop-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/spring-beans-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/spring-boot-1.5.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/spring-boot-actuator-1.5.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/spring-boot-autoconfigure-1.5.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/spring-boot-configuration-processor-1.5.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/spring-boot-starter-1.5.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/spring-boot-starter-logging-1.5.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/spring-context-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/spring-core-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/spring-expression-4.3.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/tuples-3.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/utils-3.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/winbr/Documents/Final Research/Java/jar_files/web3j-spring-boot-starter-1.5.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
