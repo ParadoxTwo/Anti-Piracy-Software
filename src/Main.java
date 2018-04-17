@@ -33,7 +33,7 @@ public class Main {
         if(System.getProperty("os.name").contains("Windows"))
         	workingDir = Functions.readFile("C:/ProgramData/AntiP/info.txt").get(0);
         else
-        	workingDir = Functions.readFile("home/Documents/AntiP/info.txt").get(0);
+        	workingDir = Functions.readFile("/home/"+System.getProperty("user.name")+"/Documents/AntiP/info.txt").get(0);
         String files[] = {workingDir+"/user.ini"};//, workingDir+"/SnakeGame.exe"};
         String FID = Functions.getFileHash(files);
         String tHID, tFID;
