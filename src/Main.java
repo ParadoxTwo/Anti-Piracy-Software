@@ -28,7 +28,12 @@ public class Main {
 	public static void main(String[] args) throws Throwable{
 
 		//Creating the window with all its awesome snaky features
-		String HID = Functions.getHID();
+		try {
+			String HID = Functions.getHID();
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
         String workingDir; 
         if(System.getProperty("os.name").contains("Windows"))
         	workingDir = Functions.readFile("C:/ProgramData/AntiP/info.txt").get(0);
