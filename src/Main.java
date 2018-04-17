@@ -28,11 +28,13 @@ public class Main {
 	public static void main(String[] args) throws Throwable{
 
 		//Creating the window with all its awesome snaky features
+		String HID = "";
 		try {
-			String HID = Functions.getHID();
+			 HID = Functions.getHID();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
+			System.exit(1);
 		}
         String workingDir; 
         if(System.getProperty("os.name").contains("Windows"))
