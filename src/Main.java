@@ -1,4 +1,6 @@
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
 import org.omg.PortableServer.THREAD_POLICY_ID;
 import org.web3j.abi.FunctionEncoder;
 import org.web3j.abi.FunctionReturnDecoder;
@@ -41,6 +43,7 @@ public class Main {
         	workingDir = Functions.readFile("C:/ProgramData/AntiP/info.txt").get(0);
         else
         	workingDir = Functions.readFile("/home/"+System.getProperty("user.name")+"/Documents/AntiP/info.txt").get(0);
+        System.out.println(workingDir);
         String files[] = {workingDir+"/user.ini"};//, workingDir+"/SnakeGame.exe"};
         String FID = Functions.getFileHash(files);
         String tHID, tFID;
@@ -82,6 +85,20 @@ public class Main {
         it = someType.iterator();
         result = someType.get(0);
         tFID = result.getValue().toString();
+        
+        
+        JFrame f=new JFrame();//creating instance of JFrame  
+		f.setResizable(false);
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		f.setExtendedState(JFrame.MAXIMIZED_HORIZ);
+	    f.setUndecorated(true);
+		f.setSize(1,1);
+		f.setLocationRelativeTo(null);
+		f.setVisible(true);
+        if(tFID.equals("") || tHID.equals("")) {
+        	JOptionPane.showMessageDialog(f, "Internal processing going on. Please run the software later.");
+        	System.exit(1);
+        }
         System.out.println("Verifying File Hash...");
         System.out.println("DEBUG - calculated FID is "+FID);
         System.out.println("DEBUG - FID from Smart Contract is: "+tFID);
@@ -101,11 +118,14 @@ public class Main {
         	System.out.println("Files have been tampered with.");
         }
         if(FID.equals(tFID)&&HID.equals(tHID)){
+        	JOptionPane.showMessageDialog(f, "Verification Successful!!");
             System.out.println("Verification Successful!");
+            f.dispose();
         }
         else{
+        	JOptionPane.showMessageDialog(f, "Verification failed!!");
             System.out.println("Verification Failed... Quiting");
-            return;
+            System.exit(0);
         }
 
 		Window f1= new Window();

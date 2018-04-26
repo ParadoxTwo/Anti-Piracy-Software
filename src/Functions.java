@@ -147,8 +147,8 @@ public class Functions {
     }
     public static String getHID() throws Throwable{
     	String biosSerial = getBiosSerialNumber();
-        String mac = getMacAddress();
-        System.out.println("Connect to network... Mac address is: "+ mac);
+//        String mac = getMacAddress();
+//        System.out.println("Connect to network... Mac address is: "+ mac);
         String driveSerial = getDriveSerialNumber("C");
         String tmp = driveSerial+ biosSerial; //+mac -> removed coz mac address can easily change, especially in laptops.
         MessageDigest digest = MessageDigest.getInstance("SHA-256");
